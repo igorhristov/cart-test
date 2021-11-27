@@ -1,0 +1,7 @@
+.page__header {
+    margin: 5rem 0;
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 4.2rem;
+    font-weight: 300;
+}

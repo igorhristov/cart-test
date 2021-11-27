@@ -1,0 +1,12 @@
+.cart__items {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart__items > * {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  height: 18.5rem;
+}

@@ -1,0 +1,7 @@
+const CurrencyActionTypes = {
+  CURRENCY_LIST: "CURRENCY_LIST",
+  TOGGLE_CURRENCIES_HIDDEN: "TOGGLE_CURRENCIES_HIDDEN",
+  CURRENT_CURRENCY: "CURRENT_CURRENCY",
+};
+
+export default CurrencyActionTypes;

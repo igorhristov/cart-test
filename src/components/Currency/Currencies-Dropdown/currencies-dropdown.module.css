@@ -1,0 +1,22 @@
+.currencies_container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 4.5rem;
+  /* left: 50%; */
+  right: 2%;
+  padding: 1.5rem;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+.currencies_container .currency {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.currencies_container .currency:not(:last-child) {
+  margin-bottom: 1.5rem;
+}

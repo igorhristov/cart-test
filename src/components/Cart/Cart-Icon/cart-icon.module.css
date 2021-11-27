@@ -1,0 +1,30 @@
+.cart__icon {
+  width: 4.5rem;
+  height: 4.5rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.cart__item__count {
+  position: absolute;
+  top: 14%;
+  right: 14%;
+  width: 1.6rem;
+  height: 1.6rem;
+  background: black;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  color: white;
+  text-align: center;
+  font: 1.2rem sans-serif;
+  font-weight: bold;
+  opacity: 0;
+}
+
+.cart__item__count.visible {
+  opacity: 1;
+}
